@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	int age;
+	float height;
+	char grade;
+
+	printf("Enter your age:\n");
+	scanf_s("%d", &age);
+
+	printf("Enter your height:\n");
+	scanf_s("%f", &height);
+
+	printf("Enter your grade:\n");
+	scanf_s("%c", &grade);
+
+	printf("You entered - Age: %d, Height: %.2f, Grade: %c", age, height, grade);
+
+	return 0;
+}
