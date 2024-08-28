@@ -7,13 +7,13 @@ int main()
 	char grade;
 
 	printf("Enter your age:\n");
-	scanf_s("%d", &age);
+	scanf("%d", &age);
 
 	printf("Enter your height:\n");
-	scanf_s("%f", &height);
+	scanf("%f", &height);
 
 	printf("Enter your grade:\n");
-	scanf_s("%c", &grade);
+	scanf("%c", &grade);
 
 	printf("You entered - Age: %d, Height: %.2f, Grade: %c", age, height, grade);
 
